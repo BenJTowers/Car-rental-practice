@@ -1,0 +1,53 @@
+
+
+body {
+    background-color: #fcf8f7;
+}
+
+.head {
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 1fr 4fr 2fr 1fr 1fr 1fr 1fr;
+    background-color: #fcf8f7;
+
+}
+
+.logo-img {
+    max-width: 75px;
+    grid-area: 1 / 1 / 1 / 1;
+    align-self: center;
+
+}
+
+.title-h1 {
+    font-size: 25px;
+    grid-area: 1 / 2 / 1 / 2;
+    align-self: center;
+}
+
+.head-button {
+    min-height: 40px;
+    border: 0px;
+    background-color: #fcf8f7;
+
+}
+
+.button1 {
+    grid-area: 1 / 4 / 1 / 4;
+    place-self: center stretch;
+}
+
+.button2 {
+    grid-area: 1 / 5 / 1 / 5;
+    place-self: center stretch;
+}
+
+.button3 {
+    grid-area: 1 / 6 / 1 / 6;
+    place-self: center stretch;
+}
+
+.button4 {
+    grid-area: 1 / 7 / 1 / 7;
+    place-self: center stretch;
+}
